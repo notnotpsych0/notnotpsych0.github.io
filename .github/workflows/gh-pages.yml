@@ -18,5 +18,6 @@ jobs:
       with:
         target_branch: master
         build_dir: public
+        fqdn: gonzalezlopes.com
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
