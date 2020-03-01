@@ -1,0 +1,22 @@
+name: GitHub Pages deploy
+
+on:
+  push:
+    branches:
+      - gh-pages
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: r-lib/actions/setup-pandoc@v1
+    - run: make build
+    - name: Deploy to GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v1
+      with:
+        target_branch: master
+        build_dir: public
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
