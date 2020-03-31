@@ -22,15 +22,26 @@ I'm also an open source contributor, beginner [starter](https://outline.com/RTSG
 
 - [Powerfulseal](https://github.com/bloomberg/powerfulseal) - Chaos Engineering tool for Kubernetes clusters.
 - [OpenTelemetry](https://github.com/open-telemetry) - A single set of APIs, libraries, agents, and collector services to capture distributed traces and metrics from your application.
+
+<details  style="margin-left:1.2em;">
+    <summary><b>More contributions</b></summary>
+
 - [Liftbridge](https://github.com/liftbridge-io) - Lightweight, fault-tolerant message streams for NATS.
 - [Detect-secrets](https://github.com/Yelp/detect-secrets) - Module for detecting secrets within a codebase.
-
+</details>
 
 ### Personal projects
 - [Trading-latency](https://dev.trading-latency.com/) - Latency monitoring between markets, brokers and cloud providers.
 - [Termination-handler](https://github.com/dgzlopes/termination-handler) - Handle termination notices on spot/preemptible instances.
+
+<details  style="margin-left:1.2em;">
+    <summary><b>More projects</b></summary>
+  
+- [Vizceral-svelte](https://github.com/dgzlopes/vizceral-svelte) - Svelte wrapper around Vizceral.
 - [Cloud-detect](https://github.com/dgzlopes/cloud-detect) - Module that determines a host's cloud provider.
-- [Other projects...](https://github.com/dgzlopes?tab=repositories&q=&type=source&language=)
+- [Tcp-latency](https://github.com/dgzlopes/tcp-latency) - Module and command-line tool to measure latency using TCP.
+
+</details>
 
 ### Misc
 Also, I'm quite active in [OSM](https://www.openstreetmap.org/), I enjoy shooting instant film, I like beer tasting and lately, I've been learning how to boulder.
