@@ -46,4 +46,4 @@ I'm also an open source contributor, beginner [starter](https://outline.com/RTSG
 ### Misc
 Also, I'm quite active in [OSM](https://www.openstreetmap.org/), I enjoy shooting instant film, I like beer tasting and lately, I've been learning how to boulder.
 
-<sub><sup>© 2019 Daniel González Lopes - Generated with [Pandoc](https://pandoc.org/)</sup></sub>
+<sub><sup>© 2020 Daniel González Lopes </a><a href="#" style="float: right;">Back to top</a></sup></sub>
