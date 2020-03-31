@@ -30,6 +30,7 @@ I'm also an open source contributor, beginner [starter](https://outline.com/RTSG
 - [Trading-latency](https://dev.trading-latency.com/) - Latency monitoring between markets, brokers and cloud providers.
 - [Termination-handler](https://github.com/dgzlopes/termination-handler) - Handle termination notices on spot/preemptible instances.
 - [Cloud-detect](https://github.com/dgzlopes/cloud-detect) - Module that determines a host's cloud provider.
+- [Other projects...](https://github.com/dgzlopes?tab=repositories&q=&type=source&language=)
 
 ### Misc
 Also, I'm quite active in [OSM](https://www.openstreetmap.org/), I enjoy shooting instant film, I like beer tasting and lately, I've been learning how to boulder.
