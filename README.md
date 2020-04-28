@@ -15,7 +15,7 @@ Hi! I'm Daniel, an undergraduate Computer Science student that loves Software En
 - Analyzing and troubleshooting systems
 - Linux/Unix/BSD internals
 
-I'm also an open source contributor, beginner [starter](https://outline.com/RTSGku) and avid tea drinker.
+I'm also an open source contributor, amateur CTF [player](https://ctftime.org/user/9132) and avid tea drinker.
 
 
 ### Open source contributions
