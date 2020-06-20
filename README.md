@@ -1,6 +1,6 @@
 # Daniel González Lopes
 
-**Undergraduate Computer Science Student**
+**Software Engineering Intern at k6.io**
 
 - **Github**: [dgzlopes](https://github.com/dgzlopes) 
 - **Email**: daniel at this domain
@@ -8,15 +8,20 @@
 *******
 
 ## About
-Hi! I'm Daniel, an undergraduate Computer Science student that loves Software Engineering and Infrastructure/Operations. Some of my professional interests are:
+Hi! I'm Daniel, an undergraduate Computer Science student and Software Engineering Intern at k6.io
 
-- Designing, building and operating large-scale systems
-- Observability
-- Analyzing and troubleshooting systems
-- Linux/Unix/BSD internals
+I'm also an open source contributor, amateur CTF [player](https://ctftime.org/user/9132), and avid tea drinker.
 
-I'm also an open source contributor, amateur CTF [player](https://ctftime.org/user/9132) and avid tea drinker.
+### Professional Interests
 
+I'm passionate about Software Engineering and Infrastructure/Operations. Some of my professional interests are:
+
+- Designing, building, and operating large-scale systems.
+- Observability.
+- Analyzing and troubleshooting systems.
+- Linux/Unix/BSD internals.
+
+Also, I'm especially interested in Site Reliability Engineering (a specific implementation of DevOps) and it's principles.
 
 ### Open source contributions
 
@@ -31,7 +36,7 @@ I'm also an open source contributor, amateur CTF [player](https://ctftime.org/us
 </details>
 
 ### Personal projects
-- [Trading-latency](https://dev.trading-latency.com/) - Latency monitoring between markets, brokers and cloud providers.
+- [Trading-latency](https://dev.trading-latency.com/) - Latency monitoring between markets, brokers, and cloud providers.
 - [Termination-handler](https://github.com/dgzlopes/termination-handler) - Handle termination notices on spot/preemptible instances.
 
 <details  style="margin-left:1.2em;">
@@ -44,6 +49,6 @@ I'm also an open source contributor, amateur CTF [player](https://ctftime.org/us
 </details>
 
 ### Misc
-Also, I'm quite active in [OSM](https://www.openstreetmap.org/), I enjoy shooting instant film, I like beer tasting and lately, I've been learning how to boulder.
+I'm quite active in [OSM](https://www.openstreetmap.org/), I enjoy shooting instant film, I like beer tasting and lately, I've been learning how to boulder.
 
 <sub><sup>© 2020 Daniel González Lopes </a><a href="#" style="float: right;">Back to top</a></sup></sub>
