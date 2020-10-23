@@ -27,7 +27,7 @@ Also, I'm especially interested in Site Reliability Engineering (a specific impl
 
 - [Powerfulseal](https://github.com/bloomberg/powerfulseal) - Chaos Engineering tool for Kubernetes clusters.
 - [OpenTelemetry](https://github.com/open-telemetry) - A single set of APIs, libraries, agents, and collector services to capture distributed traces and metrics from your application.
-
+- [Traefik](https://github.com/traefik/traefik) - Modern HTTP reverse proxy and load balancer.
 <details  style="margin-left:1.2em;">
     <summary><b>More contributions</b></summary>
 
