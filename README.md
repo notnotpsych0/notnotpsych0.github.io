@@ -26,12 +26,13 @@ Also, I'm especially interested in Site Reliability Engineering (a specific impl
 ### Open source contributions
 
 - [Powerfulseal](https://github.com/bloomberg/powerfulseal) - Chaos Engineering tool for Kubernetes clusters.
+- [Tempo](https://github.com/grafana/tempo) - Open source, easy-to-use and high-scale distributed tracing backend.
 - [OpenTelemetry](https://github.com/open-telemetry) - A single set of APIs, libraries, agents, and collector services to capture distributed traces and metrics from your application.
-- [Traefik](https://github.com/traefik/traefik) - Modern HTTP reverse proxy and load balancer.
 
 <details  style="margin-left:1.2em;">
     <summary><b>More contributions</b></summary>
 
+- [Traefik](https://github.com/traefik/traefik) - Modern HTTP reverse proxy and load balancer.
 - [Liftbridge](https://github.com/liftbridge-io) - Lightweight, fault-tolerant message streams for NATS.
 - [Detect-secrets](https://github.com/Yelp/detect-secrets) - Module for detecting secrets within a codebase.
 </details>
