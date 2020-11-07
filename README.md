@@ -18,8 +18,9 @@ I'm passionate about Software Engineering and Infrastructure/Operations. Some of
 
 - Designing, building, and operating large-scale systems.
 - Observability.
-- Analyzing and troubleshooting systems.
-- Linux/Unix/BSD internals.
+- Incident management and response.
+- Chaos Engineering.
+- Open Source.
 
 Also, I'm especially interested in Site Reliability Engineering (a specific implementation of DevOps) and it's principles.
 
