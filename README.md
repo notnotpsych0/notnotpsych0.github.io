@@ -1,6 +1,6 @@
 # Daniel González Lopes
 
-**Software Engineering Intern at k6.io**
+**Site Reliability Engineer at k6.io**
 
 - **Github**: [dgzlopes](https://github.com/dgzlopes) 
 - **Email**: daniel at this domain
@@ -8,7 +8,7 @@
 *******
 
 ## About
-Hi! I'm Daniel, an undergraduate Computer Science student and Software Engineering Intern at k6.io
+Hi! I’m Daniel, a Site Reliability Engineer at k6.io (Load Impact).
 
 I'm also an open source contributor, amateur CTF [player](https://ctftime.org/user/9132), and avid tea drinker.
 
