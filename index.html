@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>dgzlopes</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">
+@charset "UTF-8";
+
+html { font-size: 15px; }
+body { width: 55rem;
+margin-left: auto;
+margin-right: auto;
+padding: 0 2rem 8rem 2rem;
+font-family: 'Source Sans Pro', sans-serif;;
+background-color: white;
+color: #404444;
+max-width: 99%;
+box-sizing: border-box;
+counter-reset: sidenote-counter; }
+h1 { margin-top: 4rem;
+margin-bottom: 1.5rem;
+font-size: 3.2rem;
+line-height: 1; }
+h2 { position: relative;
+margin-top: 2.1rem;
+margin-bottom: 0;
+font-size: 2.2rem;
+line-height: 1; }
+h3 { position: relative;
+font-size: 1.7rem;
+margin-top: 2rem;
+margin-bottom: 0;
+line-height: 1; }
+h2::after {
+background-color: #FFDDD3;
+bottom: 0;
+content: attr(id);
+display: block;
+height: 50%;
+left: 15px;
+opacity: 1;
+position: absolute;
+z-index: -1;
+color: rgba(0, 0, 0, 0); }
+h3::after {
+background-color:#FFDDD3;
+bottom: 0;
+content: attr(id);
+display: block;
+height: 50%;
+left: 15px;
+opacity: 1;
+position: absolute;
+z-index: -1;
+color: rgba(0, 0, 0, 0); }
+p.subtitle { font-style: italic;
+margin-top: 1rem;
+margin-bottom: 1rem;
+font-size: 1.8rem;
+display: block;
+line-height: 1; }
+.numeral { font-family: 'Source Sans Pro', sans-serif; }
+.danger { color: red; }
+article { position: relative;
+padding: 5rem 0rem; }
+section { padding-top: 1rem;
+padding-bottom: 1rem; }
+p, ol, ul { font-size: 1.4rem; }
+p { line-height: 2rem;
+margin-top: 1.4rem;
+margin-bottom: 1.4rem;
+padding-right: 0;
+vertical-align: baseline; }
+
+div.epigraph { margin: 5em 0; }
+div.epigraph > blockquote { margin-top: 3em;
+margin-bottom: 3em; }
+div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic; }
+div.epigraph > blockquote > footer { font-style: normal; }
+div.epigraph > blockquote > footer > cite { font-style: italic; }
+
+blockquote { border-left: 4px solid #cccccc;
+font-size: 1.4rem;
+font-style: italic;
+margin: 2rem 0;
+padding-left: 2rem;
+padding-right: 2rem; }
+blockquote p { padding-bottom: 6px; }
+blockquote footer { font-size: 1.1rem;
+text-align: right; }
+ol, ul { padding-left: 2rem;
+-webkit-padding-start: 5%;
+-webkit-padding-end: 5%; }
+li { margin: 1rem 0; }
+li p { margin-bottom: 0.5rem;
+margin-top: 0.5rem; }
+figure { padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+-webkit-margin-start: 0;
+-webkit-margin-end: 0;
+margin: 0 0 3em 0; }
+figcaption { float: right;
+clear: right;
+margin-right: -48%;
+margin-top: 0;
+margin-bottom: 0;
+font-size: 1.1rem;
+line-height: 1.6;
+vertical-align: baseline;
+position: relative; }
+figure.fullwidth figcaption { margin-right: 24%; }
+
+a:link, a:visited { color: inherit; }
+a:link { text-decoration: none;
+background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#333, #333);
+background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(#333, #333);
+-webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+-moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+background-repeat: no-repeat, no-repeat, repeat-x;
+text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
+background-position: 0% 93%, 100% 93%, 0% 93%; }
+a:link::selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+background: #b4d5fe; }
+a:link::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+background: #b4d5fe; }
+
+a img { vertical-align: bottom; }
+
+img { }
+.sidenote, .marginnote { float: right;
+clear: right;
+margin-right: -60%;
+margin-top: 0;
+margin-bottom: 0;
+font-size: 1.1rem;
+line-height: 1.3;
+vertical-align: baseline;
+position: relative; }
+.table-caption { float:right;
+clear:right;
+margin-right: -60%;
+margin-top: 0;
+margin-bottom: 0;
+font-size: 1.0rem;
+line-height: 1.6; }
+.sidenote-number { counter-increment: sidenote-counter; }
+.sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " ";
+font-family: 'Source Sans Pro', sans-serif;;
+position: relative;
+vertical-align: baseline; }
+.sidenote-number:after { content: counter(sidenote-counter);
+font-size: 1rem;
+top: -0.5rem;
+left: 0.1rem; }
+.sidenote:before { content: counter(sidenote-counter) " ";
+top: -0.5rem; }
+p, footer, table, div.table-wrapper-small, div.supertable-wrapper > p, div.booktabs-wrapper { }
+div.fullwidth, table.fullwidth { }
+div.table-wrapper { overflow-x: scroll;
+font-family: 'Source Sans Pro', sans-serif; }
+.sans { font-family: 'Source Sans Pro', sans-serif;;
+letter-spacing: .03em; }
+code, .code { font-family: 'Source Sans Pro', sans-serif;;
+font-size: 1.125rem;
+line-height: 1.6; }
+h1 .code, h2 .code, h3 .code { font-size: 0.80em; }
+.marginnote .code, .sidenote .code { font-size: 1rem; }
+pre.code { padding-left: 2.5%;
+overflow-x: scroll; }
+.fullwidth { clear:both; }
+span.newthought { font-variant: small-caps;
+font-size: 1.2em; }
+input.margin-toggle { display: none; }
+label.sidenote-number { display: inline; }
+label.margin-toggle:not(.sidenote-number) { display: none; }
+
+table { border-collapse: collapse;
+font-family: 'Source Sans Pro', sans-serif;;
+font-size: 1.125rem;
+margin: 2rem 0; }
+th { border-bottom: 2px solid #cccccc;
+font-weight: normal;
+padding: 0.4em 0.8em; }
+td { padding: 0.4em 0.8em; }
+</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+<body>
+<h1 id="daniel-gonzález-lopes">Daniel González Lopes</h1>
+<p><strong>Site Reliability Engineer at k6.io</strong></p>
+<ul>
+<li><strong>Github</strong>: <a href="https://github.com/dgzlopes">dgzlopes</a></li>
+<li><strong>Email</strong>: daniel at this domain</li>
+</ul>
+<hr />
+<h2 id="about">About</h2>
+<p>Hi! I’m Daniel, a Site Reliability Engineer at k6.io (Load Impact).</p>
+<p>I’m also an open source contributor, amateur CTF <a href="https://ctftime.org/user/9132">player</a>, and avid tea drinker.</p>
+<h3 id="professional-interests">Professional Interests</h3>
+<p>I’m passionate about Software Engineering and Infrastructure/Operations. Some of my professional interests are:</p>
+<ul>
+<li>Designing, building, and operating large-scale systems.</li>
+<li>Observability.</li>
+<li>Incident management and response.</li>
+<li>Chaos Engineering.</li>
+<li>Open Source.</li>
+</ul>
+<p>Also, I’m especially interested in Site Reliability Engineering (a specific implementation of DevOps) and it’s principles.</p>
+<h3 id="open-source-contributions">Open source contributions</h3>
+<ul>
+<li><a href="https://github.com/bloomberg/powerfulseal">Powerfulseal</a> - Chaos Engineering tool for Kubernetes clusters.</li>
+<li><a href="https://github.com/grafana/tempo">Tempo</a> - Open source, easy-to-use and high-scale distributed tracing backend.</li>
+<li><a href="https://github.com/open-telemetry">OpenTelemetry</a> - A single set of APIs, libraries, agents, and collector services to capture distributed traces and metrics from your application.</li>
+</ul>
+<details style="margin-left:1.2em;">
+<p><summary><b>More contributions</b></summary></p>
+<ul>
+<li><a href="https://github.com/traefik/traefik">Traefik</a> - Modern HTTP reverse proxy and load balancer.</li>
+<li><a href="https://github.com/liftbridge-io">Liftbridge</a> - Lightweight, fault-tolerant message streams for NATS.</li>
+<li><a href="https://github.com/Yelp/detect-secrets">Detect-secrets</a> - Module for detecting secrets within a codebase.</li>
+</ul>
+</details>
+<h3 id="personal-projects">Personal projects</h3>
+<ul>
+<li><a href="https://dev.trading-latency.com/">Trading-latency</a> - Latency monitoring between markets, brokers, and cloud providers.</li>
+<li><a href="https://github.com/dgzlopes/termination-handler">Termination-handler</a> - Handle termination notices on spot/preemptible instances.</li>
+</ul>
+<details style="margin-left:1.2em;">
+<p><summary><b>More projects</b></summary></p>
+<ul>
+<li><a href="https://github.com/dgzlopes/vizceral-svelte">Vizceral-svelte</a> - Svelte wrapper around Vizceral.</li>
+<li><a href="https://github.com/dgzlopes/cloud-detect">Cloud-detect</a> - Module that determines a host’s cloud provider.</li>
+<li><a href="https://github.com/dgzlopes/tcp-latency">Tcp-latency</a> - Module and command-line tool to measure latency using TCP.</li>
+</ul>
+</details>
+<h3 id="misc">Misc</h3>
+<p>I’m quite active in <a href="https://www.openstreetmap.org/">OSM</a>, I enjoy shooting instant film, I like beer tasting and lately, I’ve been learning how to boulder.</p>
+<p><sub><sup>© 2020 Daniel González Lopes </a><a href="#" style="float: right;">Back to top</a></sup></sub></p>
+</body>
+</html>
